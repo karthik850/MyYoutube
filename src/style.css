@@ -1,0 +1,234 @@
+body{
+    color: white !important;
+}
+
+@media screen and (min-width:315px) {
+  .HomeContainer{
+    color: rgb(0, 0, 0);
+    background-image:
+    linear-gradient(to bottom,rgba(245, 246, 252, 0),rgba(245, 246, 252, 0), rgb(54, 54, 54), rgb(0, 0, 0)),
+    url('./Asset/banner1.png');
+    background-size: cover;
+    height: 700px;
+    
+    /* padding: 20px; */
+}
+
+@media screen and (min-width:700px) {
+.HomeContainer{
+    color: rgb(0, 0, 0);
+    background-image:
+    linear-gradient(to right,rgba(245, 246, 252, 0),rgba(245, 246, 252, 0), rgb(54, 54, 54), rgb(0, 0, 0)),
+    url('./Asset/banner1.png');
+    background-size: cover;
+    height: 700px;
+    box-shadow: 0px -7px 20px 0px rgb(0, 0, 0) inset;
+    /* padding: 20px; */
+}
+}
+
+
+  
+}
+/* .imageHeight{
+    
+    width: 100%;
+    height: 700px;
+    position:absolute;
+} */
+
+.itemsList{
+    margin-top: 10px;
+    border-color: black !important;
+}
+
+body{
+    background-color: black !important;
+}
+
+.carousel-caption{
+    position: absolute !important;
+    right: 5% !important;
+    bottom: auto !important; 
+    left: auto !important;
+    padding-top: 20% !important;
+    color: red !important;
+    text-align: center !important;
+    font-size: 30px;
+}
+
+.title{
+    font-size: 70px;
+    text-shadow: 1px 1px 2px black,16px 20px 11px black;
+    font-family: 'Creepster', cursive;
+}
+
+.helptext{
+   font-size: 12px;
+}
+
+.formLabel{
+    float: left;
+}
+.home-about-social {
+    text-align: center !important;
+    padding-top: 25px;
+    color: #414141 !important;
+  }
+.home-about-social-links {
+    justify-content: center !important;
+    padding-top: 5px !important;
+    display: inline-block !important;
+    position: relative !important;
+    padding-inline-start: 0 !important;
+  }
+  
+  .home-social-icons {
+    color:white;
+    /* position: relative !important;
+    display: inline-block !important; */
+    /* width: 40px !important;
+    height: 40px !important; */
+    /* text-align: center !important;
+    font-size: 1.2em !important;
+    line-height: 2em !important; */
+    /* background: #343e47 !important;
+    border-radius: 50% !important; 
+    transition: 0.5s !important;
+    border: 1px solid #343e47;*/
+  }
+  
+  /* .home-social-icons::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #5b585c;
+    transition: 0.5s;
+    transform: scale(0.9);
+    z-index: -1;
+  } */
+  
+  .social-icons:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #414141;
+  }
+  
+  .social-icons:hover {
+    color: #414141;
+    box-shadow: 0 0 5px #414141;
+    text-shadow: 0 0 2px #414141;
+  }
+  
+  .social-icons {
+    color: white;
+    font-size: 20px;
+    display: inline-block !important;
+    background: #343e47 !important;
+    border-radius: 50% !important;
+    height: 55px;
+    width: 55px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:10px;
+    transition: 0.5s !important;
+    border: 1px solid #343e47;
+    text-align: center;
+  }
+
+  .social-icons:hover{
+      transform: scale(1.1);
+  }
+  .social-icon{
+      font-size: 30px;
+  }
+
+.social-icon.footer{
+    transform: scale(0.5);
+}
+  
+  .quote-card-view {
+    border: none !important;
+    color: #ffffff !important;
+    background-color: transparent !important;
+    font-weight: 20px;
+  }
+
+  .about-activity {
+    list-style: none !important;
+    text-align: left !important;
+    padding-left: 1px !important;
+  }
+
+
+  .tab-pane {
+    padding: 20px;
+    opacity: 0 ;
+    transition: opacity 1s cubic-bezier(0.785, 0.135, 0.15, 0.86) !important;
+    transition-timing-function:cubic-bezier(0.785, 0.135, 0.15, 0.86)
+  }
+  
+  .tab-pane.active {
+    opacity: 1;
+  }
+
+  .itemsList{
+      color: white;
+  }
+
+  .footer {
+    background-color: #000000;
+    bottom: 0 !important;
+    width: max-content;
+  }
+  
+  .footer-body {
+    text-align: center !important;
+  }
+  
+  @media (max-width: 767px) {
+    .footer-copywright {
+      text-align: center !important;
+    }
+  
+    .footer-body {
+      text-align: center !important;
+    }
+  }
+  
+  .footer h3 {
+    font-size: 1em;
+    color: white !important;
+    margin-top: 0.5em !important;
+    margin-bottom: 0.5em !important;
+  }
+  .footer-icons {
+    transform: scale(0.6);
+    padding: 0 !important;
+  }
+
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+        background-color: rgb(255, 0, 0) !important;
+  }
+
+.badgeText{
+  animation: blink 1s linear infinite;
+  float:right;
+	}
+@keyframes blink{
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
+}
+
+.eventImage{
+  height: 300px;
+  width: 300px;
+  background-position: center;
+  background-size: cover;
+}
+
+
