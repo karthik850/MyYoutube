@@ -6,7 +6,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const Profile = () => {
     return ( 
-        <Container fluid="md" className="aboutMe">
+        <Container fluid className="aboutMe">
   
         <blockquote className="blockquote mb-0" >
           <p style={{ textAlign: "justify" }}>

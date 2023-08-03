@@ -15,7 +15,7 @@ const VideoDetails = () => {
         getVideoDetails()
     },[])
     return ( 
-        <Container fluid="md">
+        <Container fluid="xs">
         <Row xs={1} md={3} className="g-4">
       {videos && videos.map(video => (
         <Col key={video.id}>
