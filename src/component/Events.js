@@ -29,7 +29,7 @@ const Events = () => {
 
           {events && events.map((event, index) => (
             <>
-              <Accordion bg="dark" ActiveKey="0" key={event.id}>
+              <Accordion bg="dark" ActiveKey="0" key={event.id} className="animate__animated animate__fadeInDown">
                 <Accordion.Item eventKey="0">
                   <Accordion.Header>{event.eventName} {index < 2 ? <Badge bg="success" className="badgeText">New</Badge> : null}</Accordion.Header>
                   <Accordion.Body>

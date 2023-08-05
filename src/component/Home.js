@@ -16,16 +16,16 @@ const Home = () => {
     <Carousel as="div" indicators={false} prevIcon={null} nextIcon={null}>
       <Carousel.Item className="HomeContainer">
         <Carousel.Caption className="justify-content-end">
-          <h1 className="title">Genz Funtastic</h1>
-          <p className="helptext">You will encounter experiences here that are beyond your wildest dreams,
+          <h1 className="title animate__animated animate__fadeInDown">Genz Funtastic</h1>
+          <p className="helptext animate__animated animate__fadeInDown">You will encounter experiences here that are beyond your wildest dreams,
             <br/> including horror, crime, suspense, fantasy, and puzzles that will challenge your assumptions.</p>
-          <Button variant="danger" href="https://www.youtube.com/@genzfuntastic?sub_confirmation=1" target="_blank">Subscribe</Button>
+          <Button variant="danger" className="animate__animated animate__fadeInDown animate__delay-0.5s" href="https://www.youtube.com/@genzfuntastic?sub_confirmation=1" target="_blank">Subscribe</Button>
           <>
           <br/>
-          <Button variant="outline-light" disabled>Horror</Button>{' '}
-          <Button variant="outline-light" disabled>Crime</Button>{' '}
-          <Button variant="outline-light" disabled>Adventure</Button>{' '}
-          <Button variant="outline-light" disabled>Scifi</Button>{' '}
+          <Button variant="outline-light" className="animate__animated animate__fadeInDown animate__delay-1s" disabled>Horror</Button>{' '}
+          <Button variant="outline-light" className="animate__animated animate__fadeInDown animate__delay-2s" disabled>Crime</Button>{' '}
+          <Button variant="outline-light" className="animate__animated animate__fadeInDown animate__delay-3s" disabled>Adventure</Button>{' '}
+          <Button variant="outline-light" className="animate__animated animate__fadeInDown animate__delay-4s" disabled>Scifi</Button>{' '}
           </>
         </Carousel.Caption>
       </Carousel.Item>
